@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Card container */
+.card {
+  width: 500px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+h1{
+  padding: 0;
+  color:#F28C28 ;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Image from URL */
+img{
+  width: 170px;
+  height: 270px;
+  border-radius: 15px;
+box-shadow: 0 13px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.card-name {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 8px;
+  color: #F28C28;
+}
+
+
+.card-intro {
+  font-size: 17px;
+  color: #555;
+  margin: 10px auto;
+  width: 480px;
+}
+
+
+.card-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #F28C28;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  width: 150px;
+  margin: 0px auto;
+}
+
+.card-btn:hover {
+  background: #a05a14;
 }
