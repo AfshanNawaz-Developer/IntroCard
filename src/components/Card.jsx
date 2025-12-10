@@ -1,4 +1,5 @@
- import Profile from "../assests/ashi.jpg";
+import Profile from "../assets/ashi.jpg";
+
 
 
 function Card() {
